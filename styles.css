@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    background-color: #82acbc;
+    font-family: Montserrat;
+    line-height: 1,5;
+}
+
+h1,p {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background: #213448;
+    height: 80px;
+}
+
+.containernav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: lightblue;
+}
+
+.mainbar {
+    display:flex;
+    flex-grow: 2;
+    flex-basis: 3em;
+}
+
+.sidebar {
+    background-color: #547792;
+    height: 100em;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+.containerside {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+img {
+    max-width: 50%;
+    margin-top: 100px;
+    border-radius: 10%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.skillcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.softskillbar {
+    list-style-type: disc;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.hardskillbar {
+    list-style-type: square;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.maincontent{
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.containermain h1 {
+    font-size: 35px;
+}
+
+.containermain p {
+    font-size: 18px;
+}
+
+.boxes {
+
+    display: flex;
+    gap: 2em;
+
+    
+}
+
+.box1 {
+    border-radius: 20px;
+    background-color: #224060;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    width: 500px;
+    padding: 30px;
+}
+
+
+.box2 {
+    border-radius: 20px;
+    background-color: #224060; 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    width: 500px;
+    padding: 40px;
+}
