@@ -75,11 +75,17 @@ h1,p {
     gap: 2em;
 }
 
-img {
+#image {
     max-width: 50%;
     margin-top: 100px;
     border-radius: 10%;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+
+#image:hover {
+    transform: scale(1.2);
 }
 
 .skillcontainer {
@@ -129,8 +135,13 @@ img {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     width: 500px;
     padding: 30px;
+    transform: scale(1);
+    transition-duration: 0.5s;
 }
 
+.box1:hover {
+    transform: scale(1.05);
+}
 
 .box2 {
     border-radius: 20px;
@@ -138,4 +149,10 @@ img {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     width: 500px;
     padding: 40px;
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+
+.box2:hover {
+    transform: scale(1.05);
 }
